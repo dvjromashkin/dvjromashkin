@@ -1,18 +1,109 @@
-> ### :bust_in_silhouette: Bio: 
-> **My name is Roman, I and I represent the devops team from Ukraine. 
-> I have extensive experience as a Linux administrator and over 2 years of working with nodes on Cosmos and Polkadot networks. Secure and reliable individual PoS/PoW validator, crypto enthusiast. 24hr management & monitoring! (Grafana & Prometeus & Telegram alerts)**
-> #
-> ### :computer: Hardware:
-> We do not rent cloud servers, we purchased, configured and maintain all the capacities on our own.  
-> We have created our own data center and work with the following equipment:  
-> HPE Proliant DL580 Gen9 Server Quad 24-Core E7-8894 v4 96 Cores 512GB RAM, 8 x Intel P3520 Series 2 TB SSD
-> 
-> 4 x HP GEN 9, CPU - 2 x Intel Xeon E-4667 v3, RAM - DDR-4 368 GB, SSD - 4 x Intel P3520 Series 2 TB
-> 
-> 4 x Quanta - 2 x Intel (R) Xeon (R) CPU E5-2699 v3 @ 2.30GHz, RAM - DDR-4 368 GB, SSD - 4 x Intel P3520 Series 2 TB
-> 
-> 2 x Gigabyte 1U - 2 x Intel (R) Xeon (R) CPU E5-2699 v3 @ 2.30GHz, RAM - DDR-4 256 GB, SSD - 4 x Intel P3520 Series 2 TB
-> 
-> 2 x SuperMicro with SGX processors Intel Xeon E2278G, RAM - DDR-4 128 GB, 3 x Intel P3520 Series 2 TB
-> 
-> We get the Internet from three backbone providers in our country: Eurotranstelecom, Vega Telecom, DataLine. We have our own autonomous system and communication channels with a speed of 1 Gigabit / s each and a backup power supply system, which allows our data center to work without interruptions 24/7 with 100% uptime.
+# Roman Shaulskyi
+
+**Validator DevOps · Web3 Infrastructure · Security Research · Blockchain Tools**
+
+I work on blockchain infrastructure, validator operations, monitoring, incident analysis and practical tools for Web3 networks.
+
+My current focus is on payment-focused blockchain tooling, validator reliability, dashboards, RPC operations and security-oriented infrastructure research.
+
+---
+
+## Current projects
+
+### Tempo Community Dashboard
+
+Public community analytics dashboard for the Tempo network.
+
+**Live:**
+https://tempo-dashboard.xyz
+
+Tracks:
+
+* network health;
+* live blocks;
+* stablecoins;
+* payment lanes;
+* MPP activity;
+* whales;
+* ecosystem data;
+* public address activity.
+
+Status: **unofficial, independent community project**.
+
+---
+
+### Tempo Payout Cockpit
+
+Browser-only MVP for batch stablecoin payouts on Tempo Moderato testnet.
+
+**Live:**
+https://tempo-payout-cockpit.vercel.app
+
+**Repository:**
+https://github.com/dvjromashkin/tempo-payout-cockpit
+
+Flow:
+
+```text
+CSV → validation → preview → Tempo Wallet → one atomic AlphaUSD testnet batch → local receipt
+```
+
+The app is:
+
+* Moderato testnet only;
+* AlphaUSD only;
+* browser-only and non-custodial;
+* without backend, analytics, telemetry or data collection;
+* unofficial and independent.
+
+---
+
+## Areas of work
+
+* validator and node operations;
+* RPC and production reliability;
+* Linux server administration;
+* monitoring and alerting;
+* blockchain dashboards;
+* payment infrastructure tooling;
+* incident analysis and postmortems;
+* Web3 security research;
+* testnet and mainnet infrastructure operations.
+
+---
+
+## Infrastructure background
+
+My background includes Linux administration, blockchain infrastructure and validator operations across EVM-compatible and Cosmos/Tendermint-based networks.
+
+I have worked with:
+
+* Ubuntu / Linux servers;
+* systemd, Docker, LXC/LXD;
+* Grafana, Prometheus, Zabbix and Telegram alerts;
+* PostgreSQL, Redis and production service monitoring;
+* validator nodes, RPC endpoints and blockchain infrastructure;
+* deployment, troubleshooting and operational recovery.
+
+---
+
+## Public repositories
+
+Some older repositories on this profile are validator/testnet contributions, forks, experiments or operational notes.
+
+I am currently reorganizing this GitHub profile around active Web3 infrastructure, security and blockchain tooling work.
+
+Pinned repositories are the best entry point.
+
+---
+
+## Links
+
+**Website:**
+https://cryptech.space
+
+**X:**
+https://x.com/RomanChainOps
+
+**GitHub:**
+https://github.com/dvjromashkin
