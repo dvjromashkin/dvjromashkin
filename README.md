@@ -16,6 +16,9 @@ Public community analytics dashboard for the Tempo network.
 
 **Live:**
 https://tempo-dashboard.xyz
+https://tempo-payout-cockpit.vercel.app/
+https://42-dashboard.xyz/
+https://cryptech.space
 
 Tracks:
 
